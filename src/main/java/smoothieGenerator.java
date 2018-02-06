@@ -1,5 +1,5 @@
 /**
- * Created by guest on 06/02/2018.
+ * Created by jdosti on 06/02/2018.
  */
 
 public class smoothieGenerator {
