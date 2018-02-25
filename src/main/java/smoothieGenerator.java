@@ -4,7 +4,7 @@
 
 public class smoothieGenerator {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         String[] bananaGingerSmoothie = {"banana", "banana", "vanilla yogurt", "honey", "grated ginger"};
 
@@ -18,12 +18,36 @@ public class smoothieGenerator {
         String[] userIngredients = {"banana", "banana", "vanilla yogurt", "honey", "grated ginger"};
 
 
-        for (int i=0; i < userIngredients.length; i++ ){
-            for (int j=0; j< bananaGingerSmoothie.length; j++) {
-                if(userIngredients[i].equals(bananaGingerSmoothie[j])) {
+        for (int i = 0; i < userIngredients.length; i++) {
+            for (int j = 0; j < bananaGingerSmoothie.length; j++) {
+                if (userIngredients[i].equals(bananaGingerSmoothie[j])) {
                     System.out.println(true);
-                }
-                else System.out.println(false);
+                } else System.out.println(false);
+            }
+        }
+
+
+        for (int i = 0; i < userIngredients.length; i++) {
+            for (int j = 0; j < blueberrySmoothie.length; j++) {
+                if (userIngredients[i].equals(blueberrySmoothie[j])) {
+                    System.out.println(true);
+                } else System.out.println(false);
+            }
+        }
+
+        for (int i = 0; i < userIngredients.length; i++) {
+            for (int j = 0; j < pineapplePassion.length; j++) {
+                if (userIngredients[i].equals(pineapplePassion[j])) {
+                    System.out.println(true);
+                } else System.out.println(false);
+            }
+        }
+
+        for (int i = 0; i < userIngredients.length; i++) {
+            for (int j = 0; j < strawberryKiwi.length; j++) {
+                if (userIngredients[i].equals(strawberryKiwi[j])) {
+                    System.out.println(true);
+                } else System.out.println(false);
             }
         }
 
